@@ -69,12 +69,12 @@ class TCPServer:
 			Server port.
 		max_connections: int
 			Number of maximum clients which can wait in a queue.
+		buf_size: int
+			Maximum length of client packet.
 		response_module_name: type str
 			A module to process_data which must be importable (in a current container).
 		max_read_time: int
 			Maximum time to read client response (milliseconds)
-		buf_size: int
-			Maximum length of client packet.
 		poll_timeout: int
 			Number of milliseconds to check socket for incomming connections for a client.
 		"""
