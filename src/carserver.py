@@ -249,7 +249,7 @@ def main():
 							args.poll_timeout)
 	_log(_MSG_STARTED.format(host=_HOST, port=_PORT))
 	for msg in tcp_server.serve():
-		print(msg)
+		_log(msg)
 
 
 if __name__ == '__main__':
