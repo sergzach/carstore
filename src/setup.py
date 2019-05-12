@@ -10,5 +10,6 @@ setup(
     author='Sergey Zakharov',
     author_email='sergzach@gmail.com',
     scripts=['carserver.py'],
+    setup_requires=['psycopg2'],
     tests_require=['pytest']
 )
