@@ -1,4 +1,4 @@
-## Task Description
+## Task description
 Write client-server application.
 
 Use case: application which is used in car centers to store information
