@@ -44,8 +44,8 @@ Server saves the information persistently.
 
 # Source files
 * `src/server.py` — a socket server which can pick up any response module (an application).
-* `src/capstore_app.py` — a particular application which have on_response() calling from server.py.
-* `src/capstore_model.py` — a model (for PostgreSQL) to store the information about cars.
+* `app/capstore_app.py` — a particular application which have on_response() calling from server.py.
+* `app/capstore_model.py` — a model (for PostgreSQL) to store the information about cars.
 * `src/test_client.py` — a program with client which make simple requests to server and prints the server answer.
 * `src/create_db.py` — code to create database (PostgreSQL) schema. Just for an intermediate test.
 
