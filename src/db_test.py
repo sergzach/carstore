@@ -1,3 +1,7 @@
+"""
+An intermideate file to test SQLAlchemy. The file can be deleted now.
+"""
+
 
 from carstore_model import get_car, save_car
 import random
