@@ -33,8 +33,8 @@ Server saves the information persistently.
 
 
 # How to start carstore_app test
-* Setup requirements from src/: `pip3 install -r requirements.txt`.
-* Setup carserver.py from src/: `python3 setup.py install`.
+* Setup requirements from src: `pip3 install -r requirements.txt`.
+* Setup carserver.py from src: `python3 setup.py install`.
 * Add environment variables from run/env.txt. Fix ports to carserver.py/PostgreSQL for other settings.
 * Run run/server.sh. Fix the options if mentioned ports are unavailable.
 * Run run/test_client.sh. Fix the options if mentioned ports are unavailable.
