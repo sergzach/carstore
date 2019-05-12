@@ -1,3 +1,7 @@
+"""
+A setup.py to install carserver.py script.
+"""
+
 from setuptools import setup
 
 setup(
