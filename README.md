@@ -36,6 +36,8 @@ Server saves the information persistently.
 * Setup requirements from src: `pip3 install -r requirements.txt`.
 * Setup carserver.py from src: `python3 setup.py install`.
 * Add environment variables from run/env.txt. Fix ports to carserver.py/PostgreSQL for other settings.
+* Setup PostgreSQL and adjust `pg_hba.conf` settings as in run/env.txt (env. variables start with `CARSTORE__DBPG`).
+* Run `cd src && python3 create_db.py` to create a dabase.
 * Run run/server.sh. Fix the options if mentioned ports are unavailable.
 * Run run/test_client.sh. Fix the options if mentioned ports are unavailable.
 
